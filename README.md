@@ -1,4 +1,4 @@
-![KingCounty_View](KingCounty_view.png)
+![KingCounty_View](Images/kingkounty_view.png)
 Copyright: (c) Jerryway | ![Dreamstime.com]
 
 
@@ -21,12 +21,12 @@ The null hypothesis of this project will be that the model does not have any abi
 ***
 
 <div>
-<img src="MulticollinarityHeatmap.png" width="600"/>
+<img src="Images/multicollinarityheatmap.png" width="600"/>
 </div>
 
 This visual above shows the multicollinearity of different predictor variables. In this case, ideally we'd like to avoid using `sqft_above` as well as `sqft_living` so I used the most highly correlated to price which is `sqft_living`. 
 
-![sqft_scatter](sqft_scatter.png)
+![sqft_scatter](Images/sqft_scatter.png)
 
 The above visual shows a scatter plot prior to outlier removal. Seen above, we can see that some homes with the highest square foot living space actually have lower sale prices than those with a smaller square foot living area.
 
@@ -58,7 +58,11 @@ For additional info, contact Deanna Gould at [deannagould4@gmail.com](deannagoul
 ├── MulticollinearityHeatmap.png
 ├── ResidualDistribution.png
 ├── sqft_scatter.ipynb
-├── KingCounty_view.png
+└── Images
+    ├── multicollinearityheatmap.png
+    ├── residualdistribution.png
+    ├── sqft_scatter.png
+    └── kingcounty_view.png
 └── Data
     ├── column_names.md
     └── kc_house_data.csv
